@@ -1,0 +1,12 @@
+name: basic workflow
+on: push
+jobs:
+  first-job:
+    runs-on: ubuntu:latest
+    steps:
+      - name: step-one
+        run: echo "hello-world happy diwali!"
+      - name: step-2
+        run: echo "diwali is over guys go to bed !"
+        
+      
